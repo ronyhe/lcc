@@ -16,6 +16,8 @@ Feel free to comment, offer improvements and implement them.
 Just to clarify, general code review is welcome, even if it's not directly related to the project's domain.
 
 Here are some ideas of my own for enhancements:
+    - First and foremost, add unit tests. I usually write them as part of the development process,
+      but didn't here for some reason.
     - Improve comments and documentation
     - Create and integrate a small standard library with natural numbers and a minimal text encoding
     - Use the aforementioned text encoding to create input and output for the resulting programs.
