@@ -4,7 +4,6 @@ from enum import Enum
 
 from lcc.general_parser import GeneralParser
 
-
 Kind = Enum('Kind', 'left_paren, right_paren, left_bracket, right_bracket, arrow, equals, name, eof')
 
 Token = namedtuple('Token', 'text, kind')
