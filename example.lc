@@ -1,0 +1,4 @@
+zero = x > y > y
+one = x > y > y[ x ]
+
+one

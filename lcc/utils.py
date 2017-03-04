@@ -1,0 +1,2 @@
+class LccError(Exception):
+    pass
