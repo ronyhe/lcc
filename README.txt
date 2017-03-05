@@ -8,8 +8,9 @@ The structure is as follows:
     - main.py calls compiler.py to compile the code.
     - compiler.py tokenizes the text using lexical.py, it then parses the tokens using syntactical.py
     - compiler.py calls validation and emitting methods on the resulting ast.Program object.
-    - ast.py is where the heavy lifting occurs, in the form of `to_python` methods, that emit python code,
-      and `validate_free_variables` method that raise an error if unbound variables are present.
+    - ast.py is where the heavy lifting occurs:
+      `to_python` methods emit python code
+      `validate_free_variables` methods raise an error if unbound variables are present
 
 As stated, this is a learning project for me. I would love to learn even more from your contributions.
 Feel free to comment, offer improvements and implement them.
